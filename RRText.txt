@@ -1,2 +1,3 @@
 This is for learning purpose.
 The following task is to used Git
+There is alway an error with local git and remote git, better practice is use github to create folder first to pull to local machine.
