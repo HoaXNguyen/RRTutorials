@@ -1,1 +1,2 @@
-This is for learning pupose
+This is for learning purpose.
+The following task is to used Git
