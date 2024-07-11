@@ -1,15 +1,19 @@
-This is to explain data used for the tutorial.
+## Purpose 
 
-Scada data collected by Daragh and save in this folder. The data is for learning purpose. 
+Scada data collected saved in this folder for learning purposes. 
 
-This folder contains data which has been preprocessed to make clean header file.
+## Data Collection Methods 
 
-- Remove # at Date and time
-- Remove "" in name of data features
-- Replace space in data feature name with _
-_ Remove the unit of each feature and list it down here.
+Data was collected using anemometers and weather stations placed at strategic locations. 
+Data was recorded every 10 minutes and transmitted to a central database. 
 
-Units of data
+## Preprocessing Steps 
+
+Removed "#" at Date and time 
+Removed quotes in the names of data features 
+
+## Variable Descriptions and Units 
+
 Date and time,
 Wind speed (m/s),
 Wind speed, Standard deviation (m/s),
@@ -315,4 +319,5 @@ Drive train acceleration, StdDev (mm/ss),
 Tower Acceleration X, StdDev (mm/ss),
 Tower Acceleration Y, StdDev (mm/ss) 
 
-End of notes
+## Known Issues or Limitations 
+Some data points may be missing or marked as 'NaN' due to sensor errors or maintenance periods. 
